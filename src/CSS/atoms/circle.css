@@ -1,0 +1,38 @@
+.circle {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 100%;
+  background-color: var(--circleMediumGrey);
+  color: var(--lightGrey);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 1.5rem 0;
+  cursor: pointer;
+}
+
+.circle:hover {
+  background-color: var(--mediumGrey);
+  color: white;
+}
+
+.circle:active {
+  background-color: var(--Orange);
+  color: white;
+}
+
+.circle--star {
+  max-width: 2.5rem;
+  margin-top: 0;
+  cursor: auto;
+}
+
+.container__circle {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  width: 100%;
+}
+
+/*# sourceMappingURL=circle.css.map */

@@ -1,3 +1,31 @@
 @import './reset/reset';
+//atoms
+@import './atoms/fonts.scss';
+@import './atoms/circle.scss';
+@import './atoms/button.scss';
+@import './atoms/picture.scss';
+//molecules
+@import './molecules/article.scss';
+//organisms
+@import './organisms/card.scss';
+//template
 
 
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+}
+.atoms, .molecules, .organisms {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.atoms>*, .molecules>*, .organisms>* {
+    margin: 1rem;
+}

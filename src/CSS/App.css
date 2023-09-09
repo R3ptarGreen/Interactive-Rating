@@ -5,6 +5,7 @@
   /*Complement*/
   --lightGrey: hsl(217, 12%, 63%);
   --mediumGrey: hsl(216, 12%, 54%);
+  --circleMediumGrey: hsla(216, 12%, 54%, 0.25);
   --darkBlue: hsl(213, 19%, 18%);
   --veryDarkBlue: hsl(216, 12%, 8%);
   /*Neutral*/
@@ -73,7 +74,123 @@ body {
   font-size: 93.75%;
   font-family: var(--mainType);
   font-weight: 400;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 700;
   color: white;
+  margin-bottom: 0.5rem;
+}
+
+.text {
+  font-size: 1rem;
+  color: var(--lightGrey);
+}
+
+.circle {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 100%;
+  background-color: var(--circleMediumGrey);
+  color: var(--lightGrey);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 1.5rem 0;
+  cursor: pointer;
+}
+
+.circle:hover {
+  background-color: var(--mediumGrey);
+  color: white;
+}
+
+.circle:active {
+  background-color: var(--Orange);
+  color: white;
+}
+
+.circle--star {
+  max-width: 2.5rem;
+  margin-top: 0;
+  cursor: auto;
+}
+
+.container__circle {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  width: 100%;
+}
+
+.button {
+  padding: 0.75rem 0.5rem;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 5rem;
+  width: 100%;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.button--primary {
+  background-color: var(--Orange);
+  color: white;
+}
+
+.button--primary:hover {
+  background-color: white;
+  color: var(--Orange);
+}
+
+.img__thanks {
+  margin: 0.5rem;
+}
+
+.message__thanks {
+  margin-bottom: 1.5rem;
+  color: var(--Orange);
+}
+
+.article {
+  width: 100%;
+}
+
+.article--flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.card {
+  min-width: 6rem;
+  max-width: 24rem;
+  background-color: var(--darkBlue);
+  padding: 1.5rem;
+  border-radius: 1rem;
+  margin: 1.5rem;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+}
+
+.atoms, .molecules, .organisms {
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.atoms > *, .molecules > *, .organisms > * {
+  margin: 1rem;
 }
 
 /*# sourceMappingURL=App.css.map */

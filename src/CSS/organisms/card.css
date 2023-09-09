@@ -1,0 +1,10 @@
+.card {
+  min-width: 6rem;
+  max-width: 24rem;
+  background-color: var(--darkBlue);
+  padding: 1.5rem;
+  border-radius: 1rem;
+  margin: 1.5rem;
+}
+
+/*# sourceMappingURL=card.css.map */

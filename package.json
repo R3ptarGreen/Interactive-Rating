@@ -1,7 +1,7 @@
 {
   "name": "interactive-rating-component",
   "version": "1.0.0",
-  "description": "",
+  "description": "Practicing JavaScript making a interactive raiting",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
