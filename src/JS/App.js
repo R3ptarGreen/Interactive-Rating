@@ -16,4 +16,4 @@ const checker = e => {
 circleRadius.forEach(circle => circle.addEventListener('click', checker));
 
 //event to send a thanks message
-SUBMIT.addEventListener('click', () => window.location.href = 'thanks.html');
+SUBMIT.addEventListener('click', () => window.location.href = '/pages/thanks.html');
