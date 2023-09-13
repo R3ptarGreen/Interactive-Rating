@@ -107,7 +107,7 @@ body {
   color: white;
 }
 
-.circle:active {
+.active {
   background-color: var(--Orange);
   color: white;
 }
