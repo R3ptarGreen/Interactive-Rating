@@ -35,7 +35,7 @@ JavaScript practice with a Interactive Rating Component; the design was promoted
 
 ### Links
 
-- Live Site URL: [INTERACTIVE - RATING](url)
+- Live Site URL: [INTERACTIVE - RATING](https://deluxe-conkies-2eacad.netlify.app/)
 
 ### Contribution
 
