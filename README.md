@@ -1,6 +1,7 @@
 # Project: Online Learning Platform
 
-[![Author Logo](/assets/images/EM-2.png){width=100}](/assets/images/EM-2.png)
+<img src="/assets/images/EM-2.png" alt="Logo" width="100">
+
 
 ## Project Description
 
@@ -27,10 +28,10 @@ JavaScript practice with a Interactive Rating Component; the design was promoted
 
 ### Screenshot
 
-[![Mobile-active](/assets/design/mobile-active.jpeg){width=400}](/assets/design/mobile-active.jpeg)
-[![Mobile-thanks](/assets/design/mobile-thanks.jpeg){width=400}](/assets/design/mobile-thanks.jpeg)
-[![Desktop-active](/assets/design/Desktop-active.png){width=400}](/assets/design/Desktop-active.png)
-[![Desktop-thanks](/assets/design/Desktop-thanks.png){width=400}](/assets/design/Desktop-thanks.png)
+<img src="/assets/design/mobile-active.jpeg" alt="mobile-active" width="400">
+<img src="/assets/design/mobile-thanks.jpeg" alt="mobile-thanks" width="400">
+<img src="/assets/design/Desktop-active.png" alt="Desktop-active" width="400">
+<img src="/assets/design/Desktop-thanks.png" alt="Desktop-thanks" width="400">
 
 ### Links
 
