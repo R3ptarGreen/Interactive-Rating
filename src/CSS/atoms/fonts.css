@@ -10,4 +10,8 @@
   color: var(--lightGrey);
 }
 
+.underline:hover {
+  text-decoration: underline;
+}
+
 /*# sourceMappingURL=fonts.css.map */

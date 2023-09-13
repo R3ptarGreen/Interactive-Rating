@@ -88,6 +88,10 @@ body {
   color: var(--lightGrey);
 }
 
+.underline:hover {
+  text-decoration: underline;
+}
+
 .circle {
   width: 2.5rem;
   height: 2.5rem;
@@ -152,6 +156,14 @@ body {
 .message__thanks {
   margin-bottom: 1.5rem;
   color: var(--Orange);
+}
+
+.attribution {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  color: white;
+  text-align: center;
 }
 
 .article {
