@@ -9,7 +9,7 @@ JavaScript practice with a Interactive Rating Component; the design was promoted
 
 ## Table of Contents
 
-- [Overview](#overview)
+- [Overview](#overview) 
   - [The Challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
